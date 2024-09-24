@@ -1,0 +1,12 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Lista de cambios no controlados predeterminada",
+			"files": [
+				"D:/GitHub/DEV00-G00-P0/Contrarreloj/Content/StarterContent/Architecture/Floor_400x400.uasset"
+			]
+		}
+	]
+}
