@@ -7,8 +7,8 @@ La versión original del juego fue creada por Federico Peinado. El código se di
 El propósito es servir como ejemplo a los alumnos para las demás prácticas de la asignatura.
 
 ## Instalación y uso
-Todo el contenido del proyecto está disponible aquí en el repositorio, salvo la subcarpeta StarterContent que ofrece Unreal Engine por defecto.
-Esta subcarpeta debe incluirse en la carpeta Content. Si se tiene permiso, es posible [descargarla aquí](https://drive.google.com/file/d/1ece2mzryUjjU-GKg8I7tDDl_OTGqkTdx/view?usp=sharing).
+Todo el contenido del proyecto está disponible aquí en el repositorio, salvo algunas subcarpetas de recursos como típicamente la subcarpeta StarterContent que ofrece Unreal Engine por defecto.
+Todas estas subcarpetas deben incluirse en la carpeta Content. Si se tiene permiso o hay acceso general, se pueden [descargar de aquí](https://drive.google.com/drive/folders/1uATUMyKhX9cgyBhCeR6GnpZD6btQD5l7?usp=sharing).
 
 ## Preproducción
 Aunque no hay un enunciado como tal que sirva de punto de partida, la preproducción consistió en el diseño de un juego muy básico de carreras contrarreloj.
