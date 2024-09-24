@@ -1,4 +1,4 @@
-# Desarrollo de Videojuegos - Práctica 0: Contrarreloj
+# Desarrollo de Videojuegos - Profesor - Práctica 0: Contrarreloj
 
 Se trata de un prototipo básico de videojuego de carreras en el que controlamos a un coche que debe completar un circuito antes de que el cronómetro llegue a cero.
 
