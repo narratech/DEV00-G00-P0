@@ -1,4 +1,4 @@
-# Desarrollo de Videojuegos - Práctica 0: Car Race
+# Desarrollo de Videojuegos - Práctica 0: Contrarreloj
 
 Se trata de un prototipo básico de videojuego de carreras en el que controlamos a un coche que debe completar un circuito antes de que el cronómetro llegue a cero.
 
@@ -11,7 +11,7 @@ Todo el contenido del proyecto está disponible aquí en el repositorio, salvo l
 Esta subcarpeta debe incluirse en la carpeta Content. Si se tiene permiso, es posible [descargarla aquí](https://drive.google.com/file/d/1ece2mzryUjjU-GKg8I7tDDl_OTGqkTdx/view?usp=sharing).
 
 ## Preproducción
-Aunque no hay un enunciado como tal que sirva de punto de partida, la preproducción consistió en el diseño de un juego muy básico de carreras.
+Aunque no hay un enunciado como tal que sirva de punto de partida, la preproducción consistió en el diseño de un juego muy básico de carreras contrarreloj.
 
 El diseño tiene estas secciones:
 - [Estética](#Estética)
