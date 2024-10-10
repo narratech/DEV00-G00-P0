@@ -7,8 +7,11 @@ La versión original del juego fue creada por Federico Peinado. El código se di
 El propósito es servir como ejemplo a los alumnos para las demás prácticas de la asignatura.
 
 ## Instalación y uso
-Todo el contenido del proyecto está disponible aquí en el repositorio, salvo algunas subcarpetas de recursos como típicamente la subcarpeta StarterContent que ofrece Unreal Engine por defecto.
-Todas estas subcarpetas deben incluirse en la carpeta Content. Si se tiene permiso o hay acceso general, se pueden [descargar de aquí](https://drive.google.com/drive/folders/1uATUMyKhX9cgyBhCeR6GnpZD6btQD5l7?usp=sharing).
+Los ficheros más importantes del proyecto están disponible en este repositorio, aunque puede que algunos binarios potencialmente grandes estén en el almacén GitHub LFS y se requiera tener activa la extensión Git LFS. 
+El resto de los ficheros, generalmente de contenido más pesado o creado por terceros y sin intención de ser modificado en este proyecto, tendrá que descargarse de carpetas compartidas en Google Drive con ficheros ZIP, para después descomprirlos directamente en la carpeta Content. 
+Bastante contenido común a todos los proyectos, como StarterContent, LevelPrototyping o ThirdPerson, está [disponible con acceso general aquí]([https://drive.google.com/drive/u/0/folders/1TfoB5S3yQw49-onoFfn0q79PTfk2RoSE]).
+
+Para hacer esa descarga adicional más cómoda se podría usar GitHub Actions, la herramienta de automatización de GitHub, creando un workflow YAML (en .github/workflows/) que verifica si las carpetas necesarias para este proyecto están ya presentes en el disco duro, descargar los ficheros ZIP (a través del ID público de las carpetas compartidas en Google Drive) y descomprimirlos dentro de la carpeta Content.
 
 ## Preproducción
 Aunque no hay un enunciado como tal que sirva de punto de partida, la preproducción consistió en el diseño de un juego muy básico de carreras contrarreloj.
