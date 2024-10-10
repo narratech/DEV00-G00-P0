@@ -9,7 +9,7 @@ El propósito es servir como ejemplo a los alumnos para las demás prácticas de
 ## Instalación y uso
 Los ficheros más importantes del proyecto están disponible en este repositorio, aunque puede que algunos binarios potencialmente grandes estén en el almacén GitHub LFS y se requiera tener activa la extensión Git LFS. 
 El resto de los ficheros, generalmente de contenido más pesado o creado por terceros y sin intención de ser modificado en este proyecto, tendrá que descargarse de carpetas compartidas en Google Drive con ficheros ZIP, para después descomprirlos directamente en la carpeta Content. 
-Bastante contenido común a todos los proyectos, como StarterContent, LevelPrototyping o ThirdPerson, está [disponible con acceso general aquí]([https://drive.google.com/drive/u/0/folders/1TfoB5S3yQw49-onoFfn0q79PTfk2RoSE]).
+Bastante contenido común a todos los proyectos, como StarterContent, LevelPrototyping o ThirdPerson, está ([disponible con acceso general aquí][https://drive.google.com/drive/u/0/folders/1TfoB5S3yQw49-onoFfn0q79PTfk2RoSE]).
 
 Para hacer esa descarga adicional más cómoda se podría usar GitHub Actions, la herramienta de automatización de GitHub, creando un workflow YAML (en .github/workflows/) que verifica si las carpetas necesarias para este proyecto están ya presentes en el disco duro, descargar los ficheros ZIP (a través del ID público de las carpetas compartidas en Google Drive) y descomprimirlos dentro de la carpeta Content.
 
