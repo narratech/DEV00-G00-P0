@@ -11,7 +11,14 @@ Los ficheros más importantes del proyecto están disponible en este repositorio
 El resto de los ficheros, generalmente de contenido más pesado o creado por terceros y sin intención de ser modificado en este proyecto, tendrá que descargarse de carpetas compartidas en Google Drive con ficheros ZIP, para después descomprirlos directamente en la carpeta Content. 
 Bastante contenido común a todos los proyectos, como StarterContent, LevelPrototyping o ThirdPerson, está [disponible con acceso general aquí](https://drive.google.com/drive/u/0/folders/1TfoB5S3yQw49-onoFfn0q79PTfk2RoSE).
 
-Para hacer esa descarga adicional más cómoda se podría usar GitHub Actions, la herramienta de automatización de GitHub, creando un workflow YAML (en .github/workflows/) que verifica si las carpetas necesarias para este proyecto están ya presentes en el disco duro, descargar los ficheros ZIP (a través del ID público de las carpetas compartidas en Google Drive) y descomprimirlos dentro de la carpeta Content.
+Para este proyecto hace falta descargar los ficheros ZIP: 
+* LevelPrototyping
+* StarterContent
+* Track
+* Vehicles
+* VehicleTemplate
+
+Nos podríamos ahorrar esta descarga usando GitHub Actions, la herramienta de automatización de GitHub. Habría que crear un workflow YAML (en .github/workflows/) que verifique si las carpetas correspondientes están ya presentes en el disco duro, descargue los ficheros ZIP (a través del ID público de las carpetas compartidas en Google Drive) y los descomprima dentro de la carpeta Content.
 
 ## Preproducción
 Aunque no hay un enunciado como tal que sirva de punto de partida, la preproducción consistió en el diseño de un juego muy básico de carreras contrarreloj.
