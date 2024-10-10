@@ -46,14 +46,28 @@
 # Código fuente que no queremos o no podemos publicar en un repositorio público y con poco espacio (sean nuestros o ThirdParty)
 Source/SourceNoRepo/
 
-# Recursos que se usan en el proyecto, pero no queremos o no podemos publicar en un repositorio público y con poco espacio (sean nuestros o ThirdParty)
-# En Unreal Engine 5 hace falta ignorar también la carpeta Characters
-Content/ContentNoRepo/
-Content/StarterContent/
-Content/Megascans/
+# Recursos que se usan o no en el proyecto, sean nuestros o de terceros, que en ningún caso queremos o podemos publicar en un repositorio público y con poco espacio como GitHub
 Content/Characters/
+Content/FirstPerson/
+Content/FirstPersonBP/
+Content/Geometry/
+Content/InCamVFXBP/
+Content/LevelPrototyping/
+Content/Mannequin/
+Content/ProductAssets/
+Content/StarterContent/
+Content/ThirdPerson/
+Content/ThirdPersonBP/
+Content/TopDown/
+Content/TopDownBP/
+Content/Track/
+Content/Vehicles/
+Content/VehicleTemplate/
 
-# Recursos crudos que no queremos o no podemos publicar en un repositorio público y con poco espacio (sean nuestros o ThirdParty)
+Content/ContentNoRepo/
+Content/Megascans/
+
+# Recursos crudos, sean nuestros o de terceros, que en ningún caso queremos o podemos publicar en un repositorio público y con poco espacio como GitHub
 #    Antes se hablaba de recursos precompilados y ponía: SourceArt/**/*.png   SourceArt/**/*.tga
 RawContent/RawContentNoRepo/
 
